@@ -1,0 +1,6 @@
+<form action="submit.php" method="post">
+{% csrf_token %}
+姓名：<input type="text" name="username"><BR>
+內容：<textarea name="content"></textarea><BR>
+<input type="submit" value="送出">
+</form>
